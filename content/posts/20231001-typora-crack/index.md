@@ -8,6 +8,7 @@ draft: false
 showauthor: true
 categories: [技术]
 tags: [Typora, Crack, Rust]
+featureimage: https://z1.ax1x.com/2023/10/01/pPqb7Of.jpg
 ---
 
 众所周知，Typora 是一款非常优秀的 Markdown 编辑器，而我日常撰写博文使用的也正是 Typora。然而，正版 Typora 高达 89 元的售价让不少像我这样的学生党望而却步，不得不通过其他技术手段来使用 Typora。

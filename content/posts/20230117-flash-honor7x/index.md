@@ -8,6 +8,7 @@ draft: false
 showauthor: true
 categories: [技术]
 tags: [Android, Flashing, Unlock, Honor 7X, Huawei]
+featureimage: https://m.360buyimg.com/babel/jfs/t1/221156/11/14683/669884/63c69b14Fb5763414/3d20dbd73169c90d.jpg
 ---
 
 >由于系统崩坏等一系列原因，我在春节前夕准备彻底告别伴随我两年之久的旧的原厂系统。本文简单记录了我的刷机过程。

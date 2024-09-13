@@ -8,6 +8,7 @@ draft: false
 showauthor: true
 categories: [技术]
 tags: [Web, JavaScript, Console]
+featureimage: https://z1.ax1x.com/2023/11/05/piQ6pn0.jpg
 ---
 
 简单分享几种常用的解除网页复制粘贴限制的方法。

@@ -8,6 +8,7 @@ draft: false
 showauthor: true
 categories: [技术]
 tags: [内网穿透, Argo Tunnel, Cloudflare]
+featureimage: https://p0.meituan.net/csc/fc0a2fe1b9fcae273668faa89cde579a15465.png
 ---
 众所周知，国内的运营商早在十多年前便封锁了家用宽带的 80、443 等端口，因此使用家宽建站需要改用其他端口。这样一来，用户在访问自建网络服务时就必须带端口号访问，不仅会使 URL 繁琐难看，而且有暴露源站引来攻击的风险。使用 Frp 等传统的内网穿透服务是常用的解决方案，但由于政策原因，国内的内网穿透服务只能绑定备案过的域名，况且长期购买稳定的内网穿透服务会是一笔不小的开支。此时，老牌云服务商 Cloudflare 提供的 Argo Tunnel 内网穿透服务就不失为一个好的选择。
 
