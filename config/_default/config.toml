@@ -1,0 +1,89 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+
+theme = "blowfish"
+baseURL = "https://blog.tcea.top/"
+defaultContentLanguage = "zh-cn"
+disableLanguages = ['pt-pt']
+
+enableRobotsTXT = true
+paginate = 18
+summaryLength = 30
+
+buildDrafts = false
+buildFuture = false
+
+enableEmoji = true
+
+# googleAnalytics = ""
+
+[params.author]
+  name = "白鼠Cysnies"
+  image = "img/avatar.jpg"
+  headline = "风檐展书读，古道照颜色"
+  bio = "风檐展书读，古道照颜色"
+  links = [
+    #{ linkedin = "https://linkedin.com/in/nunocoracao" },
+    #{ x-twitter = "https://twitter.com/nunocoracao" },
+    { github = "https://github.com/cys2004" },
+    { email = "mailto:cysnies@outlook.com" },
+    #{ medium = "https://medium.com/@nunocoracao" },
+    #{ hackernews = "https://news.ycombinator.com/user?id=nunocoracao"},
+    #{ mastodon = "https://masto.ai/@nunocoracao" },
+    #{ instagram = "https://instagram.com/nunocoracao" },
+    #{ goodreads = "http://goodreads.com/nunocoracao" },
+    #{ keybase = "https://keybase.io/nunocoracao" },
+    #{ reddit = "https://reddit.com/user/nunoheart" },
+    #{ telegram = "https://t.me/nunocoracao" },
+    #{ music = "/music" },
+  ]
+
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  threshold = 1
+  includeNewer = true
+  toLower = true
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "authors"
+        weight = 10
+
+    [[related.indices]]
+        name = "date"
+        weight = 0
+
+    [[related.indices]]
+      applyFilter = true
+      name = 'fragmentrefs'
+      type = 'fragments'
+      weight = 10
+
