@@ -16,7 +16,7 @@ tags: [Web, JavaScript, Console]
 
 部分网站通过简单禁用 JavaScript 即可解除复制或者粘贴限制。
 
-PC端以 Chrome 为例，在开发者工具中的 Settings—Preferences（快捷键为F12—F1）里的Debugger 区域内勾选 **disable JavaScript** 选项即可。
+PC端以 Chrome 为例，在开发者工具中的 `Settings—Preferences`（快捷键为 `F12 `& `F1`）里的 `Debugger` 区域内勾选 `Disable JavaScript` 选项即可。
 
 Tips: 用完记得关掉。
 
